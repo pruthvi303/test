@@ -1,0 +1,13 @@
+#!/bin/bash
+#Example of nested for loops to generate a multiplication tavle
+echo "Multiplication Table (1 to 10):"
+for (( i =1; i<=3; i++ ))
+do
+  echo "Multiplication table for $i:"
+  for (( j=1; j<=3; j++ ))
+  do
+    echo "$i * $j = $((i * j))"
+  done
+  echo "-----------------------------"
+done
+
